@@ -1,0 +1,40 @@
+/* color property is used to set the color of foreground*/
+h1 {
+    color: red;
+}
+p {
+    color: aqua;
+}
+button {
+    color: brown;
+    background-color: tan;
+}
+
+/* background-color property is used to set the color of background */
+body {
+    background-color: rgb(9, 104, 17);
+}
+/* Color systems
+1) color: rgb(red, green, blue);
+lies between 0-255
+2) Hex code
+color:#ff0000; - red
+color:#00ff00; - green
+use color palletes while designing.
+ */
+ /* SELECTORS IN CSS
+ - Universal Selector
+ asterisk(*) {}
+ - Element selector 
+ h1 {}
+ - id selector (id basically means name)
+ #myid{} 
+ */
+ #head2{
+    color: black;
+ }
+ /* -class selector
+ .myclass{} */
+ .newclass{
+    color: brown;
+ }
