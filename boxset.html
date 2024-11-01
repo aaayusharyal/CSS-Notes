@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-sets</title>
+</head>
+<style>
+    .contentBox {
+        height: 100px;
+        width: 100px;
+    }
+    * {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+#navbar {
+    height: 60px;
+    background-color: #0f1111;
+}
+button {
+    background-color: #f08804;
+}
+#logo {
+    color:#f08804;
+    font-size: 25px;
+}
+a {
+    margin-right: 180px;
+}
+.contentBox {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+}
+#content {
+    height: 550px;
+}
+
+</style>
+<body>
+    <!-- Create a webpage layout with a header, a footer and a content area containig 3 divs.Set the hright and width of divs to 100px. 
+     Add borders to all the divs
+     Add a different bg colour to each div and an opacity of 0.5
+     Give the content area an appropriate height-->
+     <header>
+        <div id="navbar">
+            <a id="logo">amazon.in</a>
+            <a>Account</a>
+            <a>My Cart</a>
+            <a>Contact Us</a>
+                <input placeholder="search Amazon.in"">
+                <button>search</button>
+     </header>
+     <div id="content">
+        <div class="contentBox" style="background-color: rgba(255, 0, 0, 0.7);"></div>
+        <div class="contentBox" style="background-color: rgba(0, 255, 0, 0.8);"></div>
+        <div class="contentBox" style="background-color: rgba(0, 0, 255, 0.9);"></div>
+
+     </div>
+     <footer>Copyright 2024</footer>
+    
+</body>
+</html>

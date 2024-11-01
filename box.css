@@ -1,0 +1,71 @@
+/* Height alters the height of an element 
+height can be seen while inspecting or adding a background color
+div has a height equal to the content inside of it
+width sets the content area width of an element*/
+#hey {
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.6);
+    width: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+}
+
+h1 {
+    width: 200px;
+    height: 50px;
+    background-color: pink;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+    border-radius: 3px;
+
+
+}
+
+/* border is used to set an element's border
+border width:
+border style:
+border color:
+; */
+/* Border shorthand is shortcut for writing border
+border: 2px solid black; */
+/* border radius is used to round the corners of an element's outer border edge */
+#one,
+#two,
+#three {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    text-align: right;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+/* Padding is the distance between border and content inside our box.
+padding: top right buttom left */
+/* Margin is the distance between the border of one box to the another box
+ */
+/* DISPLAY PROPERTY
+ display: inline, block, inline-block, none
+ inline takes only the space required by element(no padding and margin)
+ block takes full space available in width
+ inline-block is same as inline but we can add margin and padding */
+#di {
+    background-color: pink;
+    display: inline;
+}
+
+button {
+    display: block;
+}
+
+/* Alpha channel
+ opacity (0 to 1)
+ color: rgba(255, 0, 0, 0.5); */
