@@ -1,0 +1,47 @@
+/* text align determines the direction of textual information
+text-align: left, right, center;
+css3 introduced start and end as well */
+#first{
+    text-align: center;
+    text-decoration: overline;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+h1{
+    text-align: right;
+    text-decoration:underline;
+    font-weight: 900
+}
+a {
+    text-decoration: none;
+}
+#one {
+    font-size: 20px;
+    font-family: cursive;
+}
+/* text-decoration usually decorates the text
+text-decoration: underline, overline, line-through 
+arenot used much in css
+are used to hide the underlines when anchor tages are used
+text-decoratiom: red underline; */
+/* Font weight determines the lightness and darkness of text
+font weight:normal, bold, bolder, lighter;
+also ranges from 100-900*/
+/* Font family determines the font or style of your text */
+/* Pixels in CSS
+pixels - 96px = 1 inch */
+#p1 {
+    font-size: 25px;
+}
+#p3{
+    font-size: 10px;
+}
+/* Font size determines the size of font */
+/* line height property determines the height of individual line of the text */
+#p4{
+    line-height: normal;
+}
+/* Text transform property transform text into uppercase, lowercase, capitalize etc */
+#p5 {
+    text-transform: capitalize;
+}
